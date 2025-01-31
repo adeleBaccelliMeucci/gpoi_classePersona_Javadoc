@@ -1,5 +1,7 @@
 /**
  * La classe Persona aiuta la sviluppatore a gestire dati di tipo Persona
+ * @author adeleBaccelliMeucci
+ * @version 3
  */
 public class Persona {
 
@@ -34,6 +36,15 @@ public class Persona {
 
         this.codice = codice.toUpperCase(); // Trasforma il codice in maiuscolo
     }
+    /**
+     * Costruttore senza parametri
+     * viene messo "" (stringa vuota) a tutti i parametri
+     */
+    public Persona(){
+        this.nome = "";
+        this.cognome = "";
+        this.codice = "";
+    }
 
     /**
      * Verifica se il codice fiscale fornito è valido.
@@ -66,6 +77,17 @@ public class Persona {
 
         return true; // Codice fiscale valido
     }
+
+
+
+    /**
+     * metodo per avere il nome 
+     * @return striga per il nome
+     */
+    public String getNome(){
+        return nome;
+    }
+
 
 
 }

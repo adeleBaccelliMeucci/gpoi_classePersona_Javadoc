@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"Persona","l":"Persona(String, String, String)","u":"%3Cinit%3E(java.lang.String,java.lang.String,java.lang.String)"}];updateSearchResults();
+memberSearchIndex = [{"p":"<Unnamed>","c":"Persona","l":"getNome()"},{"p":"<Unnamed>","c":"Persona","l":"Persona()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"Persona","l":"Persona(String, String, String)","u":"%3Cinit%3E(java.lang.String,java.lang.String,java.lang.String)"}];updateSearchResults();
